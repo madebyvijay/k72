@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url(/fonts/Lausanne-300.woff2);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(/fonts/Lausanne-500.woff2);
+}
+
+@theme {
+  --color-primary: #d3fd50;
+}
+
+.moveX {
+  animation: moveAnimation 10s linear infinite;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
