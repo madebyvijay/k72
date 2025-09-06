@@ -9,20 +9,19 @@ const Agence = () => {
   const imageRef = useRef(null);
 
   const imageArray = [
-    "https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/Lawrence_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/HugoJoseph_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/ChantalG_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/MyleneS_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/SophieA_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/Claire_480x640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/Michele_480X640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/MEL_480X640-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/CAMILLE_480X640_2-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/MAXIME_480X640_2-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/MEGGIE_480X640_2-480x640.jpg",
-    "https://k72.ca/uploads/teamMembers/joel_480X640_3-480x640.jpg"
+    "/images/agence/Carl_480x640-480x640.jpg",
+    "/images/agence/ChantalG_480x640-480x640.jpg",
+    "/images/agence/Claire_480x640-480x640.jpg",
+    "/images/agence/HugoJoseph_480x640-480x640.jpg",
+    "/images/agence/joel_480X640_3-480x640.jpg",
+    "/images/agence/Lawrence_480x640-480x640.jpg",
+    "/images/agence/MAXIME_480X640_2-480x640.jpg",
+    "/images/agence/MEGGIE_480X640_2-480x640.jpg",
+    "/images/agence/MEL_480X640-480x640.jpg",
+    "/images/agence/Michele_480X640-480x640.jpg",
+    "/images/agence/MyleneS_480x640-480x640.jpg",
+    "/images/agence/Olivier_480x640-480x640.jpg",
+    "/images/agence/SophieA_480x640-480x640.jpg"
   ];
 
   useGSAP(() => {

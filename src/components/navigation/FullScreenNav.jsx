@@ -112,7 +112,7 @@ const FullScreenNav = () => {
         </div>
 
         <div className="absolute top-1/2 -translate-y-1/2 w-full">
-          <div className="link origin-top relative group border-t-1 border-white">
+          <div className="link cursor-pointer origin-top relative group border-t-1 border-white">
             <h1 className="font-[font2]  text-center lg:text-[8vw] text-[14vw] leading-[0.8] pt-3 uppercase">
               Projets
             </h1>
@@ -155,7 +155,7 @@ const FullScreenNav = () => {
               </div>
             </div>
           </div>
-          <div className="link origin-top relative group border-t-1 border-white">
+          <div className="link cursor-pointer origin-top relative group border-t-1 border-white">
             <h1 className="font-[font2]  text-center lg:text-[8vw] text-[14vw] leading-[0.8] pt-3 uppercase">
               Agence
             </h1>
@@ -198,7 +198,7 @@ const FullScreenNav = () => {
               </div>
             </div>
           </div>
-          <div className="link origin-top relative group border-t-1 border-white">
+          <div className="link cursor-pointer origin-top relative group border-t-1 border-white">
             <h1 className="font-[font2]  text-center lg:text-[8vw] text-[14vw] leading-[0.8] pt-3 uppercase">
               Contact
             </h1>
@@ -241,7 +241,7 @@ const FullScreenNav = () => {
               </div>
             </div>
           </div>
-          <div className="link origin-top relative group border-y-1 border-white">
+          <div className="link cursor-pointer origin-top relative group border-y-1 border-white">
             <h1 className="font-[font2]  text-center lg:text-[8vw] text-[14vw] leading-[0.8] pt-3 uppercase">
               Blogue
             </h1>
